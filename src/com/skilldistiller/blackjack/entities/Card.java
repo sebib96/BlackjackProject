@@ -33,7 +33,7 @@ public void setSuit(Suit suit) {
 
 @Override
 public String toString() {
-	return "Card [rank=" + rank + ", suit=" + suit + "]";
+	return rank + " of " + suit;
 }
 
 @Override
